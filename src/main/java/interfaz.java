@@ -12,7 +12,7 @@ public class interfaz {
         dbManager.connect();
         dbManager.createUserTable();
 
-        JFrame frame = new JFrame("Gestión de Gastos e Ingresos");
+        JFrame frame = new JFrame("Gestión de Gastos e Ingresos.");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 300);
         frame.setLayout(new GridLayout(4, 1));
